@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.66ac1f9c.chunk.css",
-    "main.js": "/static/js/main.9369d9c9.chunk.js",
-    "main.js.map": "/static/js/main.9369d9c9.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.bff4a14e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.bff4a14e.js.map",
-    "static/js/2.a3248ae4.chunk.js": "/static/js/2.a3248ae4.chunk.js",
-    "static/js/2.a3248ae4.chunk.js.map": "/static/js/2.a3248ae4.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.dd9bba8993840686465bb05d36eb792d.js": "/precache-manifest.dd9bba8993840686465bb05d36eb792d.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.66ac1f9c.chunk.css.map": "/static/css/main.66ac1f9c.chunk.css.map",
-    "static/media/child.jpg": "/static/media/child.41736b26.jpg",
-    "static/media/childbody.jpg": "/static/media/childbody.13f72ccc.jpg",
-    "static/media/humenbody.jpg": "/static/media/humenbody.1022bf02.jpg",
-    "static/media/image3.jpg": "/static/media/image3.a4b226bf.jpg",
-    "static/media/logo.jpg": "/static/media/logo.0535bcf0.jpg",
-    "static/media/man.jpg": "/static/media/man.63b62120.jpg",
-    "static/media/woman.jpg": "/static/media/woman.8385c386.jpg"
+    "main.css": "/comit-final-project/static/css/main.66ac1f9c.chunk.css",
+    "main.js": "/comit-final-project/static/js/main.4726a85b.chunk.js",
+    "main.js.map": "/comit-final-project/static/js/main.4726a85b.chunk.js.map",
+    "runtime-main.js": "/comit-final-project/static/js/runtime-main.7b1809e5.js",
+    "runtime-main.js.map": "/comit-final-project/static/js/runtime-main.7b1809e5.js.map",
+    "static/js/2.a3248ae4.chunk.js": "/comit-final-project/static/js/2.a3248ae4.chunk.js",
+    "static/js/2.a3248ae4.chunk.js.map": "/comit-final-project/static/js/2.a3248ae4.chunk.js.map",
+    "index.html": "/comit-final-project/index.html",
+    "precache-manifest.040a44f3c14a918dea5e828fbcf4150c.js": "/comit-final-project/precache-manifest.040a44f3c14a918dea5e828fbcf4150c.js",
+    "service-worker.js": "/comit-final-project/service-worker.js",
+    "static/css/main.66ac1f9c.chunk.css.map": "/comit-final-project/static/css/main.66ac1f9c.chunk.css.map",
+    "static/media/child.jpg": "/comit-final-project/static/media/child.41736b26.jpg",
+    "static/media/childbody.jpg": "/comit-final-project/static/media/childbody.13f72ccc.jpg",
+    "static/media/humenbody.jpg": "/comit-final-project/static/media/humenbody.1022bf02.jpg",
+    "static/media/image3.jpg": "/comit-final-project/static/media/image3.a4b226bf.jpg",
+    "static/media/logo.jpg": "/comit-final-project/static/media/logo.0535bcf0.jpg",
+    "static/media/man.jpg": "/comit-final-project/static/media/man.63b62120.jpg",
+    "static/media/woman.jpg": "/comit-final-project/static/media/woman.8385c386.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.bff4a14e.js",
+    "static/js/runtime-main.7b1809e5.js",
     "static/js/2.a3248ae4.chunk.js",
     "static/css/main.66ac1f9c.chunk.css",
-    "static/js/main.9369d9c9.chunk.js"
+    "static/js/main.4726a85b.chunk.js"
   ]
 }
