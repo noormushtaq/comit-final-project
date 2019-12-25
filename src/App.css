@@ -1,22 +1,720 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.banner {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background: rgb(43, 159, 226);
+  justify-content: space-between;
+ 
+ 
 }
 
-.App-link {
-  color: #09d3ac;
+  .title {
+    font-family: sans-serif;
+    color: white;
+    letter-spacing: 3px;
+    text-shadow: 3px 2px rgb(8, 21, 211);
+    
+  }
+ 
+  html,body{
+    background: rgb(173, 223, 252);
+    
+    background-size: cover;
+    background-position: 100%;
+    width: 100%;
+    height: 100%;
+     }
+
+ 
+    
+  .logo img{
+   height: 50px;
+   width: 50px;
+  }
+
+  .logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(43, 159, 226);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color:rgb(0, 30, 128);
+    text-shadow:1px 1px 2px rgb(247, 237, 237), 0 0 25px rgb(178, 178, 240), 0 0 5px rgb(32, 32, 253) ;
+
+  } 
+
+  footer{
+    background:rgb(43, 159, 226) ;
+    position: fixed;
+     bottom: 0;
+     
+    
+    }
+  
+    #copyright {
+      color: rgb(239, 240, 239);
+      font-size: 12px;
+      width: 100%;
+      font-family: sans-serif;
+      text-align: center;
+    } 
+    
+    main{
+      margin-left:80px;
+      margin-top: 40px;
+      margin-bottom: 70px;
+    }
+ 
+.page-title{
+  font-family: sans-serif;
+  display: flex;
+    color: rgb(241, 238, 247);
+    text-shadow:1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue ;
+    letter-spacing: 5px;
+    
+  }
+
+ 
+
+    .paragraph-info  {
+      font-size: 12pt; color: rgb(16, 32, 177); 
+      padding-left:5pt; left:0; top:7pt; 
+      font-family: sans-serif;
+      text-align: justify;  
+      text-align-last: left;
+      margin-right: 30px;
+      letter-spacing: 0.7px;
+     
+     
+    }
+     
+    
+  .sub-title {
+    font-family: sans-serif;
+    color: rgb(44, 5, 121);
+    margin-top: 40px;
+  }
+
+
+  legend{
+    font-family: sans-serif;
+    font-size: 30px;
+    text-shadow:1px 1px 2px rgb(217, 244, 252), 0 0 25px rgb(115, 100, 248), 0 0 5px rgb(145, 102, 243) ;
+    color: rgb(29, 9, 139) ;
+  }
+
+  fieldset{
+    
+    margin-top: 60px;
+    margin-bottom: 40px;
+    background-color: white;
+    max-width:600px;
+    padding:16px;
+    border:2px solid rgb(9, 41, 224);
+   border-radius:8px;	
+   }
+
+   .categary-image img {
+    border-radius: 100px;
+    margin:15px;
+    width:30%;
+    border:solid rgb(147, 190, 255);
+    align-items: center;
+   }
+
+   .categary-image{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+   }
+  
+   .categary-image a{
+     text-decoration: none;
+     font-family: sans-serif;
+  }
+
+  .categary-image a:hover{
+    color: blue;
+    text-shadow:1px 1px 2px rgb(247, 237, 237), 0 0 25px rgb(178, 178, 240), 0 0 5px rgb(32, 32, 253) ;
+     }
+     .categary-image img:hover{
+       box-shadow:3px 3px 2px rgb(22, 37, 241), 0 0 25px blue;
+     }
+ 
+  
+  .man a,img{
+    display: flex;
+    align-items: center;
+  }
+ .woman a,img{
+   display: flex;
+   align-items: center;
 }
+
+.child a,img{
+  display: flex;
+  align-items: center;
+}
+.welcome {
+  color: rgb(3, 42, 151);
+}
+
+.body-link  a {
+  display: flex;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: sans-serif;
+  color: rgb(5, 5, 201);
+  padding: 10px;
+  border: solid 1px   rgb(107, 142, 240) ;
+  
+  
+}
+
+.body-choose-q{
+ 
+  font-family: sans-serif;
+  color: rgb(11, 11, 167);
+  font-weight: 900;
+  direction: ltr;
+  }
+  
+.body-link a:hover{
+  color: white;
+  background:  rgb(107, 142, 240);
+}
+ .body-link{
+   background: white;
+   width:300px;
+   border: solid rgb(107, 142, 240);
+   border-radius: 10px;
+   position: fixed;
+ }
+
+
+ .container-title h1,button,h3{
+   display: flex;
+   margin: 20px;
+   }
+
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    width: 700px;
+    border: solid  rgb(107, 142, 240);
+    padding: 10px;
+    border-radius: 30px ;
+    margin-bottom:50px ;
+   }
+
+   .closeTheContainer img{
+     width: 5%;
+   }
+
+  
+
+  button :hover{
+    background: red;
+
+  }
+  .test{
+    display: grid;
+    align-items: center;
+    padding-left: 20px;
+  }
+ 
+
+   .childbody-image img{
+    width: 20%;
+   margin-left: 600px;
+   border: solid rgb(107, 142, 240);
+   border-radius: 15px;
+   }
+
+   .humen-body a,img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+   .q-button{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+   }
+
+   .my-container{
+     display: flex;
+   }
+
+  .headache-button:hover{
+    background: rgb(107, 142, 240); 
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   
+  }
+
+    .headache-button{ color:rgb(5, 5, 201);
+       text-align: right;  
+       font-size:16px;
+       background:white;
+       border:solid rgb(107, 142, 240);
+       border-radius:10px;
+       padding:10px;
+       width:206px;
+       cursor: pointer;
+      }
+
+      .headache-button:active{
+        background: rgb(107, 142, 240); 
+        color: white;
+      }
+   
+      .HeadInjuryInChildren{
+        color:rgb(5, 5, 201); 
+        text-align:right;
+        font-size:16px;
+        background:white;
+        border:solid rgb(107, 142, 240);
+        border-radius:10px;
+        padding:10px;
+        width:206px;
+        cursor: pointer;
+       }
+
+       .HeadInjuryInChildren:hover{
+        background: rgb(107, 142, 240); 
+        color: white;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      }
+
+      .result-button{
+        color:white; 
+        text-align:right;
+        font-size:16px;
+        background:rgb(107, 142, 240);
+        border:solid rgb(107, 142, 240);
+        border-radius:10px;
+        padding:10px;
+        width:180px;
+        position:center;
+        cursor: pointer;
+      }
+
+      .result-button:hover{
+        background: white;
+        color:  rgb(107, 142, 240);
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      }
+
+      .result-button-q{
+        color:white; 
+        text-align:right;
+        font-size:16px;
+        background:rgb(107, 142, 240);
+        border:solid rgb(107, 142, 240);
+        border-radius:10px;
+        padding:10px;
+        width: fit-content;
+        position:center;
+        cursor: pointer;
+      }
+
+      .result-button-q:hover{
+        background: white;
+        color:  rgb(107, 142, 240);
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      }
+
+      .test{
+        color:  rgb(16, 32, 177);    
+        font-family: sans-serif;
+        margin-left:10px;
+        margin-bottom: 10px;   
+        }
+
+        .page-title-women{
+          font-family: sans-serif;
+          display: inline;
+            color: rgb(241, 238, 247);
+            text-shadow:1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue ;
+            letter-spacing: 5px;
+            margin: 100px;
+           
+            }
+        
+            .contact-info label{
+              display: flex;
+              padding: 10px;
+              font-family: monospace;
+              font-size: 20px;
+              color:  rgb(16, 32, 177); 
+            }
+
+           
+            .family-pic img{
+              width: 50%;
+              height: auto;
+              margin-right: 200px;
+              border-radius: 10px;
+            }
+
+            .bmi-link  a{
+             text-decoration: none;
+             font-family: sans-serif;
+             color: rgb(29, 9, 139);
+            
+            }
+
+            .bmi-link a:hover{
+              color: rgb(135, 123, 241);
+             
+            }
+
+            .BMI-container{
+              background: rgb(177, 204, 253);
+              width: 400px;
+              height: 300px;
+              margin-top: 40px;
+              padding:18px;
+              border:solid rgb(128, 128, 238);
+              border-radius: 10px;
+            }
+
+           .BMI-container input,label,button,p{
+             margin:5px;
+             padding: 2px;
+            }
+
+            label{
+              font-family: sans-serif;
+              color:rgb(5, 67, 126);
+              font-weight: bold;
+             
+              
+          
+            }
+
+            .BMIcalculator input{
+                width: 60px;
+                border:solid rgb(128, 128, 238) ;
+                border-radius: 4px;
+               
+                 }
+          
+            .thisbutton button{
+            background:  rgb(128, 128, 238);
+            border:solid rgb(128, 128, 238);
+            font-size: 20px;
+            border-radius: 8px;
+            color: rgb(243, 242, 247);
+            font-weight: bold;
+            height: 45px;
+            align-items: center;
+            padding: 10px;
+          }
+           .thisbutton{
+             margin-top: 30px;
+            
+           }
+       
+           .thisbutton button:hover{
+            background: rgb(190, 190, 245);
+            cursor: pointer;
+            color: cornsilk;}
+            
+
+           .Bmi-title h1{
+            font-family: sans-serif;
+            font-size: 25px;
+            color: rgb(33, 33, 199);
+            display: flex;
+            padding:7px;
+            margin: 0px;
+            
+          }
+          .displayTheResult{
+            background: rgb(246, 247, 248);
+            border-radius: 10px;
+            display:flex;
+            padding-top: 10px;
+            margin-top: 10px;
+            padding-bottom: 10px;
+           
+          }
+          .displayTheResult p{
+            color: rgb(5, 97, 69);
+            font-weight: bold;
+
+          }
+          .my-result-number p{
+            direction:ltr;
+          }
+
+          .BMI-Explain{
+           display: flex;
+            align-items: flex-start;
+           
+          }
+
+          .BMI-content p{
+            font-size: 12pt; color: rgb(16, 32, 177); 
+            padding-left:5pt; left:0; top:7pt; 
+            font-family: monospace;
+            text-align: justify;  
+            text-align-last: left;
+            margin-left: 30px;
+            margin-top: 40px;
+            font-weight: bold;
+            margin-right: 30px;
+            }
+
+           
+              table, th, td {
+                border: 2px solid rgb(128, 128, 238);
+                border-collapse: collapse;
+                margin-left: 40px;
+                margin-top: 30px;
+                
+              }
+              th, td {
+                padding: 5px;
+                text-align: left;
+                color: rgb(16, 32, 177);
+                font-family: sans-serif;
+               }
+
+               td{
+                 color: navy;
+               }
+
+              table{
+                background: rgb(252, 252, 252);
+                margin-top: 40px;
+              }
+
+              .Bmi-equation{
+                font-size: 12pt; color: rgb(5, 167, 67); 
+                padding-left:5pt; left:0; top:7pt; 
+                font-family: monospace;
+                text-align: justify;  
+                text-align-last: left;
+                margin-left: 30px;
+                margin-top: 20px;
+                font-weight: bold;
+
+              }
+
+              .my-result{
+                display: flex;
+                align-items: center;
+              }
+
+              
+                @media screen and (max-width: 600px) {
+                  fieldset .categary-image{
+                    -ms-flex: 50%;
+                    flex: 50%;
+                    max-width: 50%;
+
+                  }
+                }
+                @media screen and (max-width: 600px) {
+                  legend{
+                   font-size:15px;
+                  }
+                }
+
+                @media screen and (max-width: 600px) {
+                  .family-pic fieldset{
+                    -ms-flex: 50%;
+                    flex: 50%;
+                    max-width: 50%;
+                    
+                  }
+                }
+                
+                .home-container{
+                  display: -ms-flexbox; /* IE10 */
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  -ms-flex-wrap: wrap; /* IE10 */
+                  flex-wrap: wrap;
+                  padding: 0 4px;
+                }
+
+                @media screen and (max-width: 600px) {
+                  .BMI-container{
+                    -ms-flex: 50%;
+                    flex: 50%;
+                    max-width: 50%;
+                    
+                  }
+                }
+                .paragraph-info h3{
+                  color:blue
+                }
+
+                .Close-Icon img{
+                  width:4%;
+                  margin-left: 670px;
+                }
+
+                .Close-Icon img:hover{
+                  cursor: pointer; }
+     
+  
+ 
+       
+ 
+    .contactContainer{
+      background-color: white;
+      margin-top: 30px;
+      border-radius: 10px;
+      width: 50%;
+      margin-left:300px;
+      border: solid rgb(43, 159, 226);
+     
+      
+    }
+   .ContactIcons{
+     display: flex;
+    }
+    .ContactIcons img,a{
+     padding: 5px;
+     }
+    
+    
+    .contactContainer h1,p,form{
+      padding:4px;
+    
+      text-align: center;
+    }
+  .contactContainer h1{
+    padding-top: 15px;
+  }
+
+  .contatText {
+    color: rgb(77, 77, 107);
+  }
+   
+
+    .contactTitle{
+      color:rgb(43, 159, 226);
+      font-family: sans-serif;
+      margin-top: 40px;
+     }
+
+    
+
+    @media screen and (max-width: 700px) {
+      .contactContainer  {
+       margin-left:0;
+       width:100%;
+        }
+    }
+    .labelName label{
+      color: rgb(43, 159, 226) ;
+    
+    }
+
+    .contactBox label{
+      color: rgb(43, 159, 226) ;
+    }
+
+
+    .contactContainer input{
+        border: none ;
+        border-bottom: solid 1px rgb(43, 159, 226);
+
+    }
+    .contactContainer textarea{
+      border: solid 1px rgb(43, 159, 226);
+    }
+
+    .labelName input{
+        width: 300px;
+    }
+
+    .contactBox textarea{
+      width: 275px;
+      height: 100px;
+    }
+
+     .contactButton button{
+      background: rgb(43, 159, 226);
+      color: white;
+      padding: 7px;
+      size: 60px;
+     border: none;
+     border-radius: 7px;
+     width:100px;
+    
+    }
+
+    .contactButton{
+      margin:30px;
+       }
+
+     .contactButton button:hover{
+       box-shadow: 2px 3px 3px gray;
+       cursor: pointer; 
+       color: rgb(225, 219, 248);
+     }  
+ 
+
+  .contactBox{
+    margin-top: 20px;
+    display:flex;
+   justify-content: center;
+  }
+ 
+.PrintTheResult form {
+  display:table;
+  }
+.PrintTheResult h3{
+  color: darkblue;
+}
+
+.PrintTheResult input{
+  border-radius: 3px;
+  width: 200px;
+}
+
+
+   
+
+   
+
+
+
+
+    
+   
+              
+            
+            
+       
+           
